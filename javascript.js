@@ -102,7 +102,7 @@ function buttonRes() {
     box_result.value = value1 + value2;
     value1 = undefined;
   } else if (operation === "-") {
-    value2 = Number(box-result.value);
+    value2 = Number(box_result.value);
     box_result.value = value1 - value2;
     value1 = undefined;
   } else if (operation === "x") {
