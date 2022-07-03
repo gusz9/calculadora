@@ -1,11 +1,11 @@
-var box_resulted= document.getElementById("text");
+var box_result= document.getElementById("text");
 var value1;
 var value2;
 var result;
 var operation;
 
 function number1() {
-  box_resulted.value = box_resulted.value + 1;
+  box_result.value = box_result.value + 1;
 }
 
 function number2() {
