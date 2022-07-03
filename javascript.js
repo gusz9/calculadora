@@ -1,6 +1,7 @@
 var box_result= document.getElementById("text");
 var value1;
 var value2;
+var result;
 var operation;
 
 function number1() {
@@ -36,7 +37,7 @@ function number8() {
 }
 
 function number9() {
-  box_result.value = box_result.value + 9;
+  frame.value = box_result.value + 9;
 }
 
 function number0() {
