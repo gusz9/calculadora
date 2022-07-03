@@ -1,7 +1,6 @@
 var box_result= document.getElementById("text");
 var value1;
 var value2;
-var result;
 var operation;
 
 function number1() {
@@ -37,7 +36,7 @@ function number8() {
 }
 
 function number9() {
-  frame.value = box_result.value + 9;
+  box_result.value = box_result.value + 9;
 }
 
 function number0() {
@@ -51,7 +50,7 @@ function punto() {
 function buttonAdd() {
   if(value1 != undefined) {
     operation = "+";
-    box-result.value = "";
+    box_result.value = "";
   }else {
     value1 = Number(box_result.value);
     operation = "+";
